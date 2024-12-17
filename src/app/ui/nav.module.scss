@@ -1,0 +1,23 @@
+.nav-bar {
+    max-width: 1440px;
+    height: 56px;
+    line-height: 56px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+    a {
+        width: 120px;
+        text-align: center;
+
+        &:hover {
+            color: #2E4EBF;
+            font-weight: bold;
+        }
+
+        &.active {
+            color: #2E4EBF;
+            font-weight: bold;
+        }
+    }
+}

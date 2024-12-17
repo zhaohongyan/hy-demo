@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import classnames from "classnames";
-import styles from "./nav.module.css";
+import styles from "./nav.module.scss";
 import { usePathname } from "next/navigation";
 
 const MENU_LIST = [
@@ -26,7 +26,6 @@ const MENU_LIST = [
 
 export default function NavBar() {
 	const pathname = usePathname();
-	console.log(pathname);
 
 	return (
 		<div className={styles["nav-bar"]}>

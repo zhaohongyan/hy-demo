@@ -7,7 +7,6 @@ import service1Src from "../../public/home/service1.png";
 import service2Src from "../../public/home/service2.png";
 import service3Src from "../../public/home/service3.png";
 import service4Src from "../../public/home/service4.png";
-import pliceSrc from "../../public/home/plice.png";
 import styles from "./page.module.scss";
 
 export default function Home() {
